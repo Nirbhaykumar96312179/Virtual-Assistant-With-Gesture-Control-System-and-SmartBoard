@@ -1,0 +1,108 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    margin: 0;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #333;
+    margin-top: 0;
+}
+
+p {
+    color: #666;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Specific styling for different sections */
+#libraries {
+    margin-top: 20px;
+}
+
+#libraries h3 {
+    color: #007bff;
+}
+
+#libraries li {
+    padding-left: 20px;
+    position: relative;
+}
+
+#libraries li:before {
+    content: "\2022";
+    position: absolute;
+    left: 0;
+    color: #007bff;
+}
+
+/* Button styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Form styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Color shades */
+.shade-light {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.shade-medium {
+    background-color: #ddd;
+    color: #333;
+}
+
+.shade-dark {
+    background-color: #aaa;
+    color: #fff;
+}
+
+/* Add more specific styling as needed */
